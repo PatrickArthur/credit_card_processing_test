@@ -1,0 +1,8 @@
+Add Tom "1234567890123456" $1000
+Add Lisa "1234567890123456" $3000
+Add Quincy 1234567890123456 $2000
+Charge Tom $500
+Charge Tom $800
+Charge Lisa $7
+Credit Lisa $100
+Credit Quincy $200
