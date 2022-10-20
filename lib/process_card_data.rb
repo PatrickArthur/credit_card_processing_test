@@ -11,7 +11,7 @@ class ProcessCardData
 	def process_card_data
 		line_split = line.split(" ")
 		if line_split.first == "Add"
-			accounts.credit_cards << CreditCard.new(line_split[1], line_split[2], line_split[3])
+			accounts.add_card(line_split[1], line_split[2], line_split[3])
 		elsif line_split.first == "Charge"
 			accounts.process_charge(line_split[1], line_split[2])
 		elsif line_split.first == "Credit"
